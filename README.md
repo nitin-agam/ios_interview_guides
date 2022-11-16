@@ -13,6 +13,7 @@ If you like my work, don't forget to click ⭐️ button and share it with your 
 > Note: You will get this list to be updated time to time by adding more questions and answers.
 
 <br>
+
 ## Property Related Questions & Answers
 
 ### Question: What is a lazy property in Swift?
@@ -40,6 +41,7 @@ class LoginController: UIViewController {
 Why did we define `alertView` as lazy? Because we know that `alertView` will be needed when the login button is clicked. Before that, it might not even have been in use. 
 
 <br>
+
 ### Question: Why should a lazy property be a variable in Swift?
 
 You must always declare a lazy property as a variable (with the var keyword), because its initial value might not be retrieved until after instance initialization completes. Constant properties must always have a value before initialization completes, and therefore can’t be declared lazy.
@@ -60,6 +62,7 @@ error: 'lazy' cannot be used on a let
 
 
 <br>
+
 ### Question: What are the advantages of lazy stored properties?
 
 There are a few advantages of using lazy property instead of stored property:
@@ -70,6 +73,7 @@ There are a few advantages of using lazy property instead of stored property:
 
 
 <br>
+
 ### Question: What is the difference between a computed and a lazy stored property?
 
 - Computed property would be recalculated every time while lazy property is calculated once.
@@ -148,7 +152,7 @@ If this is the case, computed property will give you the correct result.
 
 
 <br><br>
-### ***Let's make this list bigger to help other.***
+#### ***Let's make this list bigger to help other.***
 
 
 
