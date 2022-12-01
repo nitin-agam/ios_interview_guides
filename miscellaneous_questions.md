@@ -18,3 +18,14 @@ let tupleWithNames = (name: "Simon", city: "New York City", age: 24)
 // Access the name
 print(tupleWithNames.name) // print "Simon"
 ```
+
+<br><br>
+### Question: What is the difference between classes and structs?
+
+- The difference between a class and a struct is whether it's a reference or a value. If you need to store some primitive data types (i.e. ​Ints, ​Floats​, ​Strings, etc.), use a ​struct​. 
+- However, if you need custom behavior where passing by reference is preferred so that you refer to the same instance everywhere, use a class.
+- The other difference is that a ​class ​supports inheritance, while a struct doesn’t.
+
+Note: Basically in Swift, a ​struct ​is preferred over a ​class.
+
+
