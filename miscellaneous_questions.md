@@ -19,7 +19,7 @@ let tupleWithNames = (name: "Simon", city: "New York City", age: 24)
 print(tupleWithNames.name) // print "Simon"
 ```
 
-<br><br>
+<br>
 ### Question: What is the difference between classes and structs?
 
 - The difference between a class and a struct is whether it's a reference or a value. If you need to store some primitive data types (i.e. ​Ints, ​Floats​, ​Strings, etc.), use a ​struct​. 
@@ -28,4 +28,10 @@ print(tupleWithNames.name) // print "Simon"
 
 Note: Basically in Swift, a ​struct ​is preferred over a ​class.
 
+<br>
+### Question: What is the difference between static and class functions?
+
+- A static function can be associated with a type like a struct, class, or enum, while a class function is associated with a class type only.
+- Class functions can be overridden by subclasses, while static functions cannot be overridden.
+- Class functions can access the self properties of the class, which is not possible for static functions.
 
